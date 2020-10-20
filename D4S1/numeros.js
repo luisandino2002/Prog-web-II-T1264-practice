@@ -1,10 +1,6 @@
 
 function pitagoras(a, b) {
+    return Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+}
 
-    var c =Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
-    
-    return c
-    
-    }
-
-console.log(pitagoras(2,3));
+console.log(pitagoras(2, 3));
